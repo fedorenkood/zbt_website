@@ -1,0 +1,44 @@
+body{
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.banner_img {
+  width: 100vw;
+}
+
+.banner_img2 {
+  width: 100vw;
+}
+.transparent_main {
+  position: fixed;
+    width: 34vw;
+    height: 10vw;
+    top: 24vw;
+    left: 33vw;
+    z-index: 2;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .banner_img {
+    width: 100vw;
+  }
+
+  .transparent_main {
+    position: fixed;
+      width: 34vw;
+      height: 10vw;
+      top: 24vw;
+      left: 33vw;
+      z-index: 2;
+  }
+}
+
+
+
+
+#intro {
+
+}
