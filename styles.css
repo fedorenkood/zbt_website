@@ -8,9 +8,7 @@ body{
   width: 100vw;
 }
 
-.banner_img2 {
-  width: 100vw;
-}
+
 .transparent_main {
   position: fixed;
     width: 34vw;
@@ -20,20 +18,29 @@ body{
     z-index: 2;
 }
 
+.image_wrapper {
+  width: 100vw;
+}
+
 
 @media only screen and (max-device-width: 480px) {
-  .banner_img {
-    width: 100vw;
+  .image_wrapper {
+    overflow: hidden;
   }
+.banner_img {
+  width: 300vw;
+  position: relative;
+  left: -100vw;
+}
 
-  .transparent_main {
-    position: fixed;
-      width: 34vw;
-      height: 10vw;
-      top: 24vw;
-      left: 33vw;
-      z-index: 2;
-  }
+.transparent_main {
+  position: fixed;
+    width: 90vw;
+    height: 20vw;
+    top: 81vw;
+    left: 5vw;
+    z-index: 2;
+}
 }
 
 
